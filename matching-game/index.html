@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Match</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="game">
+        <h1>Memory Match</h1>
+
+        <p>Match all 6 pairs to win!</p>
+        <p>Click or tap two cards to reveal them.</p>
+
+        <div class="stats" aria-live="polite">
+            <p id="moves">Moves: 0</p>
+            <p id="time">Time: 00:00</p>
+        </div>
+
+        <div id="game-board" class="game-board"></div>
+
+        <p id="message"></p>
+
+        <button id="restart">Restart Game</button>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
